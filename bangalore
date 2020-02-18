@@ -1,0 +1,93 @@
+GuardIEn System Update Report
+Produced on:    11-11-2019
+ 
+Project Code:   RATE/PRICE
+System Code:    RP
+ 
+Number:         1638
+Description:    RP C2C PRC CH0065085 11/17/2019
+SCCL No:        995
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created Date:   11-11-2019
+Environment:    SYST
+Release:        COBOL       Desc: COBOL/DB2 Release
+Target:         SYSTID      Name: System Test Target for ID (derived from environment)
+ 
+Comments
+--------
+ 
+Release Packs and Change Requests in this update
+--------------------------------------------------
+ 
+Release Pack                                                        Change Request
+-------------------------------------------------------------       -------------------------------------------------------------
+  628 RP C2C PRC CH0065085 11/17/2019                                 895 C2C PXH G12
+ 
+CR No.     Type     Code     Name                             Version Status Comment
+---------- -------- -------- -------------------------------- ------- ------ --------------------
+  895      AB       CCAR0011 CCAR0011_RATE_QUOTE_GET            10       M
+  895      AB       CCAR0181 CCAR0181_SPOT_QUOTE_DETAIL_GET     4        M
+  895      AB       CCAR2141 CCAR2141_SPOT_QUOTE_DTL_CREATE     15       M
+  895      AB       CCAR2161 CCAR2161_QUOTE_SHPMT_DTL_ADD       7        M
+  895      AB       CCAR3241 CCAR3241_SPOT_QUOTE_AC_GET         2        M
+  895      AB       ECAR0011 ECAR0011_RATE_QUOTE_CALCULATION    13       I
+  895      AB       ICAR0011 ICAR0011_RATE_QUOTE_GET_S          10       M
+  895      AB       MCAR0011 MCAR0011_RATE_QUOTE_GET            10       M
+  895      PROC     RT04S000 RT04_S_RATE_QUOTE_MAINTAIN         20       M
+  895      SPECTYPE T5493697 ICAR1_UPSELL                       1        I
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+ 
+System Update Expansion details
+------------------------------------------------------------
+ 
+Del Code Name                             Versn Reason DM Tr Cd Sc Ins Model      Ac Sv Cl Wn HP Dyn Op SQL Member   Type     Note
+-------- -------------------------------- ----- ------ -- -- -- -- --- ---------- -- -- -- -- -- --- -- --- -------- -------- -----
+CAR1GENP ICAR1_OPERATION_GENERATOR        1     Vw Chg N  N  Y  N  Y   CARIQ      Y  Y  N  N  N  N N N  N   CAR1GENP PROC
+CCAR0011 CCAR0011_RATE_QUOTE_GET          10    CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  Y   CCAR0011 AB
+CCAR0181 CCAR0181_SPOT_QUOTE_DETAIL_GET   4     CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  Y   CCAR0181 AB
+CCAR2141 CCAR2141_SPOT_QUOTE_DTL_CREATE   15    CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  Y   CCAR2141 AB
+CCAR2161 CCAR2161_QUOTE_SHPMT_DTL_ADD     7     CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  Y   CCAR2161 AB
+CCAR3241 CCAR3241_SPOT_QUOTE_AC_GET       2     CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  Y   CCAR3241 AB
+ICAR0011 ICAR0011_RATE_QUOTE_GET_S        10    CR Cnt N  N  Y  N  Y   CARIQ      Y  Y  N  N  Y  Y   N  N   ICAR0011 AB
+ICAR0011 ICAR0011_RATE_QUOTE_GET_S        10    CR Cnt N  N  Y  N  Y   CARUQ      N  N  N  N  Y  Y   N  N   ICAR0011 AB
+ICAR0181 ICAR0181_SPOT_QUOTE_DETAIL_GET_S 1     Instal N  N  N  N  MVS CARIQ      Y  Y  N  N  Y  Y   N  N   ICAR0181 AB
+ICAR0181 ICAR0181_SPOT_QUOTE_DETAIL_GET_S 1     Instal N  N  N  N  MVS CARUQ      N  N  N  N  Y  Y   N  N   ICAR0181 AB
+ICAR2141 ICAR2141_SPOT_QUOTE_DTL_CREATE_S 3     Instal N  N  N  N  MVS CARIQ      Y  Y  N  N  Y  Y   N  N   ICAR2141 AB
+ICAR2141 ICAR2141_SPOT_QUOTE_DTL_CREATE_S 3     Instal N  N  N  N  MVS CARUQ      N  N  N  N  Y  Y   N  N   ICAR2141 AB
+ICAR2161 ICAR2161_QUOTE_SHPMT_DTL_ADD_S   6     Instal N  N  N  N  MVS CARIQ      Y  Y  N  N  Y  Y   N  N   ICAR2161 AB
+ICAR2161 ICAR2161_QUOTE_SHPMT_DTL_ADD_S   6     Instal N  N  N  N  MVS CARUQ      N  N  N  N  Y  Y   N  N   ICAR2161 AB
+ICAR3241 ICAR3241_SPOT_QUOTE_AC_GET_S     1     Instal N  N  N  N  MVS CARIQ      Y  Y  N  N  Y  Y   N  N   ICAR3241 AB
+MCAR0011 MCAR0011_RATE_QUOTE_GET          10    CR Cnt N  N  Y  N  N   CARIQ      Y  Y  N  N  Y  N   N  N   MCAR0011 AB
+RT04S000 RT04_S_RATE_QUOTE_MAINTAIN       20    CR Cnt Y  N  Y  N  Y   CARUQ      Y  Y  N  N  N  N N N  N   RT04S000 PROC
+ 
+System Update Step details
+--------------------------------------------------
+ 
+Code Description          Status    Jobs Sub Jobs Comp Jobs Fail UserID   Task No. Date       Time     Comment
+---- -------------------- --------- -------- --------- --------- -------- -------- ---------- -------- ------------------------
+ MS  Migrate DEV->SYST    Completed      0        0          0   WZ39J3      38519 11-11-2019 14:42:47 ** Completed
+ AG  Assign G Roles       Completed      0        0          0   WZ39J3      38522 11-11-2019 14:42:49 ** Warnings issued
+ GX  Convert G to X Role  Completed      0        0          0   WZ39J3      38522 11-11-2019 14:42:49 ** Completed
+ EX  Expand (Impact)      Completed      0        0          0   WZ39J3      38522 11-11-2019 14:42:51 ** Completed
+ SS  GEN Src Generation                  0        0          0                   0 00-00-0000 00:00:00
+ LK  Generate Link Decks                 0        0          0                   0 00-00-0000 00:00:00
+ N1  Endevor Add Source                  0        0          0                   0 00-00-0000 00:00:00
+ N2  Endevor Add Link                    0        0          0                   0 00-00-0000 00:00:00
+RAMA OBULA REDDY
+:wq!
+
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
+Created by:     Rama Obula Reddy
