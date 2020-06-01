@@ -2,7 +2,7 @@ class rama
 {  
     public static void main(String args[]) 
     { 
-        System.out.println("Hello, Kadapa-proddatur-Lingapuram"); 
+        System.out.println("Hello, DXC-FMO-Proximus"); 
     } 
 } 
 
